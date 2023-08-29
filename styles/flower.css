@@ -2,6 +2,11 @@
     margin: 0;
     /* padding: 0; */
 }
+.primary{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
 .header{
     background-color: rgba(236, 88, 120, 0.1);
     /* margin: 0 200px; */
@@ -95,7 +100,41 @@ img{
     text-align: center;
 }
 .ad-img{
-    width: 318px;
-    height: 420px;
+    width: 250px;
+    height: 200px;
+    justify-content: space-around;
 
+}
+/* ad end */
+.box-title{
+    text-align: center;
+}
+.box-description{
+    text-align: center;
+}
+.box-model-image>img{
+    width: 342px;
+height: 396px;
+gap: 24px;
+}
+/* box end */
+.deal{
+    border-radius: 8px;
+}
+.deal-img{
+    width:100%;
+    height: 300px;
+
+}
+.footer{
+    align-items: center;
+}
+.footer-title{
+    text-align: center;
+}
+.footer-description{
+    text-align: center;
+}
+.copyright{
+    text-align: center;
 }
