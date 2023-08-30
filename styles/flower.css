@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
 }
 .primary{
     color: #E55473;
@@ -39,6 +39,7 @@ img{
     height: 800px;
     width: 635px;
 }
+/* banner end */
 .featured{
     text-align: center;
     margin-top: 100px;
@@ -59,9 +60,7 @@ button{
     color: white;
     width: 179px;
     height: 64px;
-    font-size: 20px;
-    
-    
+    font-size: 20px; 
 }
 
 .img-1{
@@ -166,7 +165,7 @@ button{
 }
 /* box end */
 .deal{
-    border-radius: 8px;
+    border-radius: 10px;
     margin-top: 128px;
     position: relative;
     text-align: center;
@@ -184,16 +183,13 @@ button{
     color:black;
 }
 .deal-title{
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.deal-description{
     margin-bottom: 20px;
 }
 .text-area{
-    /* background-color: white;
-    border-radius: 5px;
-    color: white;
-    width: 379px;
-    height: 64px;
-    font-size: 20px; */
     width: 400px;
     height: 60px;
     border-radius: 3px;
@@ -205,8 +201,10 @@ button{
     margin-top: 125px;
     background-color: black;
     align-items: center;
-    /* height: 150px; */
-    height: 400px;
+    height: 320px;
+}
+.foter{
+    margin-bottom: 50px;
 }
 
 #footer-title{
@@ -217,10 +215,11 @@ button{
 .footer-description{
     text-align: center;
     color: white;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .copyright{
     margin-top: 50px;
     text-align: center;
     color: white;
 }
+/* footer end */
